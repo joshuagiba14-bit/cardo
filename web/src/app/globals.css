@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Cardo brand theme. Every color a component uses should come from one of
+ * these tokens (via the Tailwind classes in tailwind.config.ts) — never an
+ * arbitrary hex value in a component file.
+ *
+ * Palette: black background, blue text and accents throughout. Error
+ * (destructive) and success stay red/green on purpose — those need to read
+ * as distinct signals, not blend into the blue.
+ */
+@layer base {
+  :root {
+    --background: 0 0% 3%;
+    --foreground: 210 100% 78%;
+
+    --card: 220 25% 7%;
+    --card-foreground: 210 100% 78%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 30% 10%;
+    --secondary-foreground: 210 100% 82%;
+
+    --muted: 220 25% 9%;
+    --muted-foreground: 210 40% 58%;
+
+    --accent: 195 100% 60%;
+    --accent-foreground: 0 0% 4%;
+
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 4%;
+
+    --border: 217 40% 20%;
+    --input: 217 40% 22%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  /* Visible, high-contrast focus ring on every interactive element. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, hsl(var(--border) / 0.4) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--border) / 0.4) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+}

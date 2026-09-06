@@ -1,0 +1,194 @@
+{
+  "common": {
+    "brand": "Cardo",
+    "languageSwitcher": {
+      "label": "Language",
+      "fr": "FR",
+      "en": "EN"
+    },
+    "priceFrom": "from ${price}/mo",
+    "priceCustom": "Custom quote"
+  },
+  "nav": {
+    "primary": "Primary navigation",
+    "home": "Home",
+    "services": "Services",
+    "caseStudies": "Case Studies",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Talk about your budget",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "tagline": "Cardo runs your Meta and Google Ads. Nothing else — on purpose.",
+    "quickLinks": "Quick links",
+    "contactTitle": "Get in touch",
+    "location": "Montreal, QC",
+    "rights": "All rights reserved."
+  },
+  "industries": {
+    "trades": "Trades",
+    "clinic": "Clinic",
+    "restaurant": "Restaurant",
+    "salon": "Salon",
+    "contractor": "Contractor",
+    "other": "Other"
+  },
+  "home": {
+    "meta": {
+      "title": "Cardo — Meta Ads & Google Ads for local Montreal businesses",
+      "description": "Cardo runs your Meta Ads and Google Ads. Nothing else. Paid advertising specialists for service businesses in the greater Montreal area."
+    },
+    "hero": {
+      "eyebrow": "Meta Ads & Google Ads specialists",
+      "title": "We do one thing: ads that bring in customers.",
+      "subtitle": "Cardo runs your Meta and Google Ads — nothing else. No SEO, no social media management, no rebrand decks. Just ads that fill your schedule.",
+      "primaryCta": "Get a free ad audit",
+      "secondaryCta": "See our results"
+    },
+    "offerings": {
+      "title": "One service, two platforms",
+      "subtitle": "Meta Ads to create demand. Google Ads to capture demand that already exists. We run both, or just the one you need.",
+      "cta": "Learn more",
+      "viewAll": "View all services"
+    },
+    "howWeWork": {
+      "title": "How we work",
+      "subtitle": "Three steps, no mystery.",
+      "steps": {
+        "audit": {
+          "title": "Audit",
+          "description": "We dig into your current campaigns — or your market, if you're starting from zero — to find exactly where the money is leaking."
+        },
+        "build": {
+          "title": "Build",
+          "description": "We build campaigns targeted at the services and areas that pay off most, with call and form tracking wired in from day one."
+        },
+        "scale": {
+          "title": "Scale",
+          "description": "We cut what doesn't work, put more budget behind what does, and show you the numbers every month."
+        }
+      }
+    },
+    "caseStudies": {
+      "title": "Results, not promises",
+      "subtitle": "What our clients across greater Montreal actually got.",
+      "viewCaseStudy": "View case study",
+      "viewAll": "View all case studies"
+    },
+    "closingCta": {
+      "title": "Ready to stop guessing?",
+      "subtitle": "Tell us your current ad budget and what isn't working. We'll tell you honestly if we can do better.",
+      "cta": "Talk about my budget"
+    }
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Services — Meta Ads & Google Ads",
+      "description": "Meta Ads, Google Ads, landing page, and conversion tracking management for service businesses in the Montreal area."
+    },
+    "eyebrow": "Our services",
+    "title": "Meta Ads and Google Ads don't do the same job",
+    "intro": "Google Ads captures demand that already exists — someone is actively searching for your service right now. Meta Ads creates demand — we put your offer in front of the right people before they even think to search. Most of our clients need both, just rarely in the same proportions. Here's how to decide.",
+    "priceLabel": "Investment",
+    "closingCta": {
+      "title": "Not sure where to start?",
+      "subtitle": "Tell us your industry and current budget. We'll tell you honestly what makes the most sense.",
+      "cta": "Ask the question"
+    }
+  },
+  "caseStudiesPage": {
+    "meta": {
+      "title": "Case Studies",
+      "description": "Real results for service businesses across the greater Montreal area — cost per lead, new patients, occupancy rates."
+    },
+    "title": "Verifiable results, not anonymous case studies",
+    "subtitle": "Every number here comes from a real ad account we manage.",
+    "empty": "No case studies published yet.",
+    "viewCaseStudy": "View case study",
+    "detail": {
+      "challengeTitle": "The problem",
+      "approachTitle": "What we did",
+      "adSpendLabel": "Ad budget managed",
+      "adSpendValue": "${amount}/mo",
+      "back": "All case studies",
+      "cta": "Want a result like this?",
+      "ctaButton": "Talk about my budget"
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "About",
+      "description": "Why Cardo only does paid advertising, and where the name comes from."
+    },
+    "eyebrow": "About Cardo",
+    "title": "The axis your growth turns on",
+    "nameSection": {
+      "title": "Where the name comes from",
+      "body1": "In Latin, cardo means hinge — or axis. In a Roman city, the cardo maximus was the main north-south street everything else was built around: neighborhoods, markets, side streets. Everything oriented itself against that one axis.",
+      "body2": "That's the idea behind the agency. For a local service business, paid advertising isn't just one channel among many — it's often the axis the whole business's growth turns on. When that axis works, the schedule fills up. When it doesn't, nothing else quite makes up for it."
+    },
+    "whySection": {
+      "title": "Why only paid advertising",
+      "body1": "Most agencies sell a bit of everything: social media, SEO, branding, newsletters, ads. That's good for their revenue. It's rarely good for you, because nobody on the team is truly excellent at any one thing — and your ad budget ends up paying for someone's learning curve.",
+      "body2": "Cardo only manages Meta Ads and Google Ads campaigns. No reels, no blog posts, no site redesigns. That limit is deliberate: it forces us to be better at one thing, and it gives you a simple way to judge us — cost per lead, and nothing else."
+    },
+    "founderSection": {
+      "title": "The founder",
+      "name": "Étienne Roy",
+      "role": "Founder & Lead Strategist",
+      "body": "Étienne spent six years managing Google Ads and Meta Ads accounts inside Montreal generalist agencies, watching colleagues sell content and SEO to clients who mostly just needed more phone calls. He founded Cardo on a bet that an agency that refuses to do everything might finally do one thing well. Today he personally oversees every account — no junior touches your budget without him in the loop."
+    },
+    "cta": "See our results"
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact",
+      "description": "Tell us about your current ad budget. Honest reply within 1 business day."
+    },
+    "eyebrow": "Contact",
+    "title": "Let's talk about your ad budget",
+    "subtitle": "Tell us where things stand. We'll reply with an honest read on what we can do — not a sales pitch.",
+    "form": {
+      "name": { "label": "Full name", "placeholder": "Marc Tremblay" },
+      "email": { "label": "Email", "placeholder": "marc@mybusiness.ca" },
+      "businessName": { "label": "Business name", "placeholder": "Tremblay Plumbing" },
+      "phone": { "label": "Phone", "placeholder": "514 555-1234" },
+      "industry": { "label": "Industry", "placeholder": "Choose an industry" },
+      "monthlyAdBudget": { "label": "Current monthly ad budget", "placeholder": "Choose a range" },
+      "currentChannels": { "label": "Channels you currently use" },
+      "message": { "label": "Message (optional)", "placeholder": "Tell us about your situation..." },
+      "submit": "Send my request",
+      "submitting": "Sending..."
+    },
+    "budgets": {
+      "under_1000": "Under $1,000/mo",
+      "1000_2500": "$1,000 – $2,500/mo",
+      "2500_5000": "$2,500 – $5,000/mo",
+      "5000_10000": "$5,000 – $10,000/mo",
+      "10000_plus": "Over $10,000/mo"
+    },
+    "channels": {
+      "meta_ads": "Meta Ads (Facebook/Instagram)",
+      "google_ads": "Google Ads",
+      "seo": "SEO",
+      "print": "Print advertising",
+      "referral": "Word of mouth",
+      "none": "None right now"
+    },
+    "success": {
+      "title": "Request received.",
+      "description": "We're looking at your situation and will reply within 1 business day."
+    },
+    "errors": {
+      "generic": "Something went wrong. Try again, or email us directly at {email}.",
+      "required": "This field is required.",
+      "invalid_email": "Enter a valid email address.",
+      "name_too_short": "Name must be at least 2 characters.",
+      "business_name_too_short": "Business name must be at least 2 characters.",
+      "phone_too_short": "Enter a valid phone number.",
+      "select_at_least_one": "Select at least one option."
+    }
+  }
+}

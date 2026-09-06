@@ -1,0 +1,147 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Locale {
+  fr
+  en
+}
+
+enum LeadStatus {
+  new
+  contacted
+  qualified
+  won
+  lost
+}
+
+/// Kept intentionally narrow — this is a paid-ads-only agency, not full-service.
+enum Industry {
+  trades
+  clinic
+  restaurant
+  salon
+  contractor
+  other
+}
+
+enum CurrentChannel {
+  meta_ads
+  google_ads
+  seo
+  print
+  referral
+  none
+}
+
+enum UserRole {
+  admin
+  staff
+}
+
+/// A contact-form submission from a prospective client.
+model Lead {
+  id       String @id @default(cuid())
+  name     String
+  email    String
+  businessName String
+  phone    String
+
+  industry Industry
+
+  /// Stored as the shared Zod enum's string value (e.g. "1000_2500").
+  /// Kept as a plain string rather than a Prisma enum because Prisma enum
+  /// members must be valid identifiers and can't start with a digit.
+  monthlyAdBudget String
+
+  currentChannels CurrentChannel[]
+
+  message String @default("")
+  /// Where the lead came from, e.g. "contact_form", "homepage_cta".
+  source  String @default("contact_form")
+
+  status LeadStatus @default(new)
+  locale Locale
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+  @@index([createdAt])
+  @@index([email])
+}
+
+/// A single service line item (Meta Ads, Google Ads, landing pages, tracking & reporting).
+model Offering {
+  id     String @id @default(cuid())
+  slug   String @unique
+
+  titleFr   String
+  titleEn   String
+  summaryFr String
+  summaryEn String
+  bodyFr    String
+  bodyEn    String
+
+  /// Starting price in CAD, e.g. 1500 for "from $1,500/mo". Null = "custom quote".
+  priceFrom Int?
+
+  isActive     Boolean @default(true)
+  displayOrder Int     @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([isActive])
+  @@index([displayOrder])
+}
+
+/// A published client result used as social proof across the site.
+model CaseStudy {
+  id         String   @id @default(cuid())
+  slug       String   @unique
+  clientName String
+  industry   Industry
+
+  /// Approximate monthly ad spend managed, in CAD.
+  adSpend Int?
+
+  titleFr  String
+  titleEn  String
+  summaryFr String
+  summaryEn String
+
+  challengeFr String
+  challengeEn String
+  approachFr  String
+  approachEn  String
+
+  /// The headline number, e.g. "cost per lead cut from $80 to $22".
+  resultMetricFr String
+  resultMetricEn String
+
+  isPublished Boolean   @default(false)
+  publishedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([isPublished])
+  @@index([industry])
+}
+
+/// An admin-panel operator account.
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  role         UserRole @default(staff)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

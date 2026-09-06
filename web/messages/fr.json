@@ -1,0 +1,194 @@
+{
+  "common": {
+    "brand": "Cardo",
+    "languageSwitcher": {
+      "label": "Langue",
+      "fr": "FR",
+      "en": "EN"
+    },
+    "priceFrom": "à partir de {price} $/mois",
+    "priceCustom": "Prix sur mesure"
+  },
+  "nav": {
+    "primary": "Navigation principale",
+    "home": "Accueil",
+    "services": "Services",
+    "caseStudies": "Études de cas",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Discutons de votre budget",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "footer": {
+    "tagline": "Cardo gère vos campagnes Meta et Google Ads. Rien d'autre — et c'est voulu.",
+    "quickLinks": "Liens rapides",
+    "contactTitle": "Nous joindre",
+    "location": "Montréal, QC",
+    "rights": "Tous droits réservés."
+  },
+  "industries": {
+    "trades": "Métiers",
+    "clinic": "Clinique",
+    "restaurant": "Restaurant",
+    "salon": "Salon",
+    "contractor": "Entrepreneur",
+    "other": "Autre"
+  },
+  "home": {
+    "meta": {
+      "title": "Cardo — Meta Ads & Google Ads pour commerces locaux à Montréal",
+      "description": "Cardo gère vos campagnes Meta Ads et Google Ads. Rien d'autre. Spécialistes en publicité payante pour les commerces de services de la région de Montréal."
+    },
+    "hero": {
+      "eyebrow": "Spécialistes Meta Ads & Google Ads",
+      "title": "On ne fait qu'une chose : des publicités qui rapportent des clients.",
+      "subtitle": "Cardo gère vos campagnes Meta et Google Ads — rien d'autre. Pas de référencement, pas de gestion de réseaux sociaux, pas de refonte de marque. Juste des publicités qui remplissent votre agenda.",
+      "primaryCta": "Obtenir un audit gratuit",
+      "secondaryCta": "Voir nos résultats"
+    },
+    "offerings": {
+      "title": "Un service, deux plateformes",
+      "subtitle": "Meta Ads pour créer la demande. Google Ads pour capter celle qui existe déjà. On gère les deux, ou seulement celle dont vous avez besoin.",
+      "cta": "En savoir plus",
+      "viewAll": "Voir tous les services"
+    },
+    "howWeWork": {
+      "title": "Comment on travaille",
+      "subtitle": "Trois étapes, pas de mystère.",
+      "steps": {
+        "audit": {
+          "title": "Audit",
+          "description": "On analyse vos campagnes actuelles — ou votre marché, si vous partez de zéro — pour trouver exactement où l'argent se perd."
+        },
+        "build": {
+          "title": "Construction",
+          "description": "On bâtit des campagnes ciblées sur les services et les secteurs qui rapportent le plus, avec le suivi des appels et des soumissions branché dès le premier jour."
+        },
+        "scale": {
+          "title": "Mise à l'échelle",
+          "description": "On coupe ce qui ne marche pas, on met plus de budget sur ce qui marche, et on vous montre les chiffres chaque mois."
+        }
+      }
+    },
+    "caseStudies": {
+      "title": "Des résultats, pas des promesses",
+      "subtitle": "Ce que nos clients de la région de Montréal ont obtenu.",
+      "viewCaseStudy": "Voir l'étude de cas",
+      "viewAll": "Voir toutes les études de cas"
+    },
+    "closingCta": {
+      "title": "Prêt à arrêter de deviner ?",
+      "subtitle": "Dites-nous votre budget publicitaire actuel et ce qui ne fonctionne pas. On vous dira si on peut faire mieux — honnêtement.",
+      "cta": "Discuter de mon budget"
+    }
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Services — Meta Ads & Google Ads",
+      "description": "Gestion de campagnes Meta Ads, Google Ads, pages d'atterrissage et suivi de conversion pour commerces de services à Montréal."
+    },
+    "eyebrow": "Nos services",
+    "title": "Meta Ads et Google Ads ne font pas le même travail",
+    "intro": "Google Ads capte une demande qui existe déjà : quelqu'un cherche activement votre service maintenant. Meta Ads crée de la demande : on met votre offre devant les bonnes personnes avant même qu'elles pensent à chercher. La plupart de nos clients ont besoin des deux — mais rarement dans les mêmes proportions. Voici comment décider.",
+    "priceLabel": "Investissement",
+    "closingCta": {
+      "title": "Pas sûr par où commencer ?",
+      "subtitle": "Dites-nous votre secteur et votre budget actuel. On vous dira honnêtement ce qui a le plus de sens.",
+      "cta": "Poser la question"
+    }
+  },
+  "caseStudiesPage": {
+    "meta": {
+      "title": "Études de cas",
+      "description": "Résultats réels obtenus pour des commerces de services de la région de Montréal — coût par lead, nouveaux clients, taux d'occupation."
+    },
+    "title": "Des résultats vérifiables, pas des études de cas anonymes",
+    "subtitle": "Chaque chiffre ici vient d'un vrai compte publicitaire que nous gérons.",
+    "empty": "Aucune étude de cas publiée pour le moment.",
+    "viewCaseStudy": "Voir l'étude de cas",
+    "detail": {
+      "challengeTitle": "Le problème",
+      "approachTitle": "Ce qu'on a fait",
+      "adSpendLabel": "Budget publicitaire géré",
+      "adSpendValue": "{amount} $/mois",
+      "back": "Toutes les études de cas",
+      "cta": "Vous voulez ce genre de résultat ?",
+      "ctaButton": "Discuter de mon budget"
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "À propos",
+      "description": "Pourquoi Cardo ne fait que de la publicité payante, et d'où vient le nom."
+    },
+    "eyebrow": "À propos de Cardo",
+    "title": "L'axe autour duquel votre croissance tourne",
+    "nameSection": {
+      "title": "D'où vient le nom",
+      "body1": "En latin, cardo veut dire charnière — ou axe. Dans une ville romaine, le cardo maximus était la rue principale nord-sud autour de laquelle tout le reste était construit : les quartiers, les marchés, les routes secondaires. Tout s'orientait par rapport à cet axe.",
+      "body2": "C'est l'idée derrière l'agence. Pour une entreprise de services locale, la publicité payante n'est pas un canal parmi d'autres — c'est souvent l'axe sur lequel toute la croissance tourne. Quand cet axe fonctionne, l'agenda se remplit. Quand il ne fonctionne pas, rien d'autre ne compense."
+    },
+    "whySection": {
+      "title": "Pourquoi seulement la publicité payante",
+      "body1": "La plupart des agences vendent un peu de tout : réseaux sociaux, référencement, image de marque, infolettres, publicité. C'est bon pour leurs revenus. C'est rarement bon pour vous, parce que personne dans l'équipe ne maîtrise vraiment une seule chose — et votre budget publicitaire finit par payer l'apprentissage de quelqu'un.",
+      "body2": "Cardo ne gère que des campagnes Meta Ads et Google Ads. Pas de reels, pas d'articles de blogue, pas de refonte de site. Cette limite est volontaire : elle nous force à être meilleurs sur une seule chose, et elle vous donne un moyen simple de nous évaluer — le coût par lead, et rien d'autre."
+    },
+    "founderSection": {
+      "title": "Le fondateur",
+      "name": "Étienne Roy",
+      "role": "Fondateur et stratège principal",
+      "body": "Étienne a passé six ans à gérer des comptes Google Ads et Meta Ads à l'intérieur d'agences généralistes montréalaises, à regarder des collègues vendre du contenu et du référencement à des clients qui avaient surtout besoin de plus d'appels. Il a fondé Cardo en pariant qu'une agence qui refuse de tout faire pourrait enfin bien faire une chose. Aujourd'hui, il supervise personnellement chaque compte — aucun stagiaire ne touche votre budget sans lui."
+    },
+    "cta": "Voir nos résultats"
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact",
+      "description": "Parlez-nous de votre budget publicitaire actuel. Réponse honnête sous 1 jour ouvrable."
+    },
+    "eyebrow": "Contact",
+    "title": "Parlons de votre budget publicitaire",
+    "subtitle": "Dites-nous où vous en êtes. On vous répond avec un avis honnête sur ce qu'on peut faire — pas un argumentaire de vente.",
+    "form": {
+      "name": { "label": "Nom complet", "placeholder": "Marc Tremblay" },
+      "email": { "label": "Courriel", "placeholder": "marc@monentreprise.ca" },
+      "businessName": { "label": "Nom de l'entreprise", "placeholder": "Plomberie Tremblay" },
+      "phone": { "label": "Téléphone", "placeholder": "514 555-1234" },
+      "industry": { "label": "Secteur", "placeholder": "Choisir un secteur" },
+      "monthlyAdBudget": { "label": "Budget publicitaire mensuel actuel", "placeholder": "Choisir une fourchette" },
+      "currentChannels": { "label": "Canaux utilisés actuellement" },
+      "message": { "label": "Message (optionnel)", "placeholder": "Parlez-nous de votre situation..." },
+      "submit": "Envoyer ma demande",
+      "submitting": "Envoi en cours..."
+    },
+    "budgets": {
+      "under_1000": "Moins de 1 000 $/mois",
+      "1000_2500": "1 000 $ – 2 500 $/mois",
+      "2500_5000": "2 500 $ – 5 000 $/mois",
+      "5000_10000": "5 000 $ – 10 000 $/mois",
+      "10000_plus": "Plus de 10 000 $/mois"
+    },
+    "channels": {
+      "meta_ads": "Meta Ads (Facebook/Instagram)",
+      "google_ads": "Google Ads",
+      "seo": "Référencement (SEO)",
+      "print": "Publicité imprimée",
+      "referral": "Bouche-à-oreille",
+      "none": "Aucun pour l'instant"
+    },
+    "success": {
+      "title": "Demande reçue.",
+      "description": "On regarde votre situation et on vous répond sous 1 jour ouvrable."
+    },
+    "errors": {
+      "generic": "Une erreur est survenue. Réessayez, ou écrivez-nous directement à {email}.",
+      "required": "Ce champ est requis.",
+      "invalid_email": "Entrez une adresse courriel valide.",
+      "name_too_short": "Le nom doit contenir au moins 2 caractères.",
+      "business_name_too_short": "Le nom de l'entreprise doit contenir au moins 2 caractères.",
+      "phone_too_short": "Entrez un numéro de téléphone valide.",
+      "select_at_least_one": "Sélectionnez au moins une option."
+    }
+  }
+}
