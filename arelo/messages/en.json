@@ -1,0 +1,20 @@
+{
+  "Metadata": {
+    "title": "Arelo",
+    "description": "Drop your course outlines and class notes: Arelo builds your semester calendar, reminds you before every evaluation, and quizzes you."
+  },
+  "Home": {
+    "tagline": "Your semester calendar and your studying, in one place.",
+    "pitch": "Drop your course outlines and class notes. Arelo builds your semester calendar, reminds you before every evaluation, and makes quizzes for you.",
+    "comingSoon": "Coming soon"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "switchTo": "Français"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "This page doesn’t exist or has been moved.",
+    "backHome": "Back to home"
+  }
+}

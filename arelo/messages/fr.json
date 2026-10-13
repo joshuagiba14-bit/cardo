@@ -1,0 +1,20 @@
+{
+  "Metadata": {
+    "title": "Arelo",
+    "description": "Dépose tes plans de cours et tes notes : Arelo crée ton calendrier de session, te rappelle chaque évaluation et te fait réviser en français."
+  },
+  "Home": {
+    "tagline": "Ton calendrier de session et tes révisions, au même endroit.",
+    "pitch": "Dépose tes plans de cours et tes notes de cours. Arelo crée ton calendrier de session, te rappelle chaque évaluation et te prépare des quiz en français.",
+    "comingSoon": "Bientôt disponible"
+  },
+  "LocaleSwitcher": {
+    "label": "Langue",
+    "switchTo": "English"
+  },
+  "NotFound": {
+    "title": "Page introuvable",
+    "description": "Cette page n’existe pas ou a été déplacée.",
+    "backHome": "Retour à l’accueil"
+  }
+}
